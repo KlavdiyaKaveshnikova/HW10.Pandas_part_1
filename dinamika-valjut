@@ -1,0 +1,1205 @@
+
+<!DOCTYPE html>
+<!-- HTML5! :)/ -->
+<!--[if lt IE 7]> <html class="ie6 no-js" lang="de"> 	<![endif]-->
+<!--[if IE 7]>    <html class="ie7 no-js" lang="de"> 	<![endif]-->
+<!--[if IE 8]>    <html class="ie8 no-js" lang="de"> 	<![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="de" class="no-js">
+<!--<![endif]-->
+<head>
+	
+
+
+<title>Курсы и котировки валют в реальном времени, новости рынка валют на finanz.ru</title>
+<meta name="title" content="Курсы и котировки валют в реальном времени, новости рынка валют на finanz.ru"/>
+<meta property="og:title" content="Курсы и котировки валют в реальном времени, новости рынка валют на finanz.ru" />
+<meta name="description" content="На сайте finanz.ru Вы найдете новости, курсы и котировки валют в реальном времени. С нами Вы всегда будете обладать правильными данными о курсах валют на рынке форекс."/>
+<meta property="og:description" content="На сайте finanz.ru Вы найдете новости, курсы и котировки валют в реальном времени. С нами Вы всегда будете обладать правильными данными о курсах валют на рынке форекс." />
+<meta name="keywords" content="курс валюты на рынке, валюта и валютный рынок, валютный рынок, валюта валютный курс, мировой рынок валют, международный рынок валют, рынок валют форекс, обзор рынка валют, курсы валют на рынке форекс, валютная биржа"/>
+
+<!-- Указать постоянные параметры -->
+<!-- <meta name="adriverDefaults" content="sid:203601, bt:52" />-->
+<!-- Указать, что используется автоматическая загрузка -->
+<!-- <meta name="adriverOptions" content="autoLoad:1" />-->
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-5" />
+	<meta http-equiv="expires" content="86400" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="Content-Style-Type" content="text/css" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" /><script type="text/javascript">window.NREUM||(NREUM={});NREUM.info = {"beacon":"bam.nr-data.net","errorBeacon":"bam.nr-data.net","licenseKey":"d362edb6e0","applicationID":"4540928","transactionName":"NVYGNRRQDxAAW0RaXAwcKTclHiQbAlBRXVQHYQUVA3IODRVKX19fB0FLJB5SCQIPX1VhUhZWNAQUVw4RDFleUFY=","queueTime":1,"applicationTime":88,"agent":"","atts":""}</script><script type="text/javascript">(window.NREUM||(NREUM={})).loader_config={xpid:"UQQOUV9QGwcFUFFbBQk=",licenseKey:"d362edb6e0",applicationID:"4540928"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var o=e[n]={exports:{}};t[n][0].call(o.exports,function(e){var o=t[n][1][e];return r(o||e)},o,o.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var o=0;o<n.length;o++)r(n[o]);return r}({1:[function(t,e,n){function r(t){try{s.console&&console.log(t)}catch(e){}}var o,i=t("ee"),a=t(25),s={};try{o=localStorage.getItem("__nr_flags").split(","),console&&"function"==typeof console.log&&(s.console=!0,o.indexOf("dev")!==-1&&(s.dev=!0),o.indexOf("nr_dev")!==-1&&(s.nrDev=!0))}catch(c){}s.nrDev&&i.on("internal-error",function(t){r(t.stack)}),s.dev&&i.on("fn-err",function(t,e,n){r(n.stack)}),s.dev&&(r("NR AGENT IN DEVELOPMENT MODE"),r("flags: "+a(s,function(t,e){return t}).join(", ")))},{}],2:[function(t,e,n){function r(t,e,n,r,s){try{l?l-=1:o(s||new UncaughtException(t,e,n),!0)}catch(f){try{i("ierr",[f,c.now(),!0])}catch(d){}}return"function"==typeof u&&u.apply(this,a(arguments))}function UncaughtException(t,e,n){this.message=t||"Uncaught error with no additional information",this.sourceURL=e,this.line=n}function o(t,e){var n=e?null:c.now();i("err",[t,n])}var i=t("handle"),a=t(26),s=t("ee"),c=t("loader"),f=t("gos"),u=window.onerror,d=!1,p="nr@seenError",l=0;c.features.err=!0,t(1),window.onerror=r;try{throw new Error}catch(h){"stack"in h&&(t(13),t(12),"addEventListener"in window&&t(6),c.xhrWrappable&&t(14),d=!0)}s.on("fn-start",function(t,e,n){d&&(l+=1)}),s.on("fn-err",function(t,e,n){d&&!n[p]&&(f(n,p,function(){return!0}),this.thrown=!0,o(n))}),s.on("fn-end",function(){d&&!this.thrown&&l>0&&(l-=1)}),s.on("internal-error",function(t){i("ierr",[t,c.now(),!0])})},{}],3:[function(t,e,n){t("loader").features.ins=!0},{}],4:[function(t,e,n){function r(){L++,C=g.hash,this[u]=y.now()}function o(){L--,g.hash!==C&&i(0,!0);var t=y.now();this[h]=~~this[h]+t-this[u],this[d]=t}function i(t,e){E.emit("newURL",[""+g,e])}function a(t,e){t.on(e,function(){this[e]=y.now()})}var s="-start",c="-end",f="-body",u="fn"+s,d="fn"+c,p="cb"+s,l="cb"+c,h="jsTime",m="fetch",v="addEventListener",w=window,g=w.location,y=t("loader");if(w[v]&&y.xhrWrappable){var x=t(10),b=t(11),E=t(8),O=t(6),R=t(13),P=t(7),T=t(14),N=t(9),M=t("ee"),S=M.get("tracer");t(16),y.features.spa=!0;var C,L=0;M.on(u,r),M.on(p,r),M.on(d,o),M.on(l,o),M.buffer([u,d,"xhr-done","xhr-resolved"]),O.buffer([u]),R.buffer(["setTimeout"+c,"clearTimeout"+s,u]),T.buffer([u,"new-xhr","send-xhr"+s]),P.buffer([m+s,m+"-done",m+f+s,m+f+c]),E.buffer(["newURL"]),x.buffer([u]),b.buffer(["propagate",p,l,"executor-err","resolve"+s]),S.buffer([u,"no-"+u]),N.buffer(["new-jsonp","cb-start","jsonp-error","jsonp-end"]),a(T,"send-xhr"+s),a(M,"xhr-resolved"),a(M,"xhr-done"),a(P,m+s),a(P,m+"-done"),a(N,"new-jsonp"),a(N,"jsonp-end"),a(N,"cb-start"),E.on("pushState-end",i),E.on("replaceState-end",i),w[v]("hashchange",i,!0),w[v]("load",i,!0),w[v]("popstate",function(){i(0,L>1)},!0)}},{}],5:[function(t,e,n){function r(t){}if(window.performance&&window.performance.timing&&window.performance.getEntriesByType){var o=t("ee"),i=t("handle"),a=t(13),s=t(12),c="learResourceTimings",f="addEventListener",u="resourcetimingbufferfull",d="bstResource",p="resource",l="-start",h="-end",m="fn"+l,v="fn"+h,w="bstTimer",g="pushState",y=t("loader");y.features.stn=!0,t(8),"addEventListener"in window&&t(6);var x=NREUM.o.EV;o.on(m,function(t,e){var n=t[0];n instanceof x&&(this.bstStart=y.now())}),o.on(v,function(t,e){var n=t[0];n instanceof x&&i("bst",[n,e,this.bstStart,y.now()])}),a.on(m,function(t,e,n){this.bstStart=y.now(),this.bstType=n}),a.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),this.bstType])}),s.on(m,function(){this.bstStart=y.now()}),s.on(v,function(t,e){i(w,[e,this.bstStart,y.now(),"requestAnimationFrame"])}),o.on(g+l,function(t){this.time=y.now(),this.startPath=location.pathname+location.hash}),o.on(g+h,function(t){i("bstHist",[location.pathname+location.hash,this.startPath,this.time])}),f in window.performance&&(window.performance["c"+c]?window.performance[f](u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["c"+c]()},!1):window.performance[f]("webkit"+u,function(t){i(d,[window.performance.getEntriesByType(p)]),window.performance["webkitC"+c]()},!1)),document[f]("scroll",r,{passive:!0}),document[f]("keypress",r,!1),document[f]("click",r,!1)}},{}],6:[function(t,e,n){function r(t){for(var e=t;e&&!e.hasOwnProperty(u);)e=Object.getPrototypeOf(e);e&&o(e)}function o(t){s.inPlace(t,[u,d],"-",i)}function i(t,e){return t[1]}var a=t("ee").get("events"),s=t("wrap-function")(a,!0),c=t("gos"),f=XMLHttpRequest,u="addEventListener",d="removeEventListener";e.exports=a,"getPrototypeOf"in Object?(r(document),r(window),r(f.prototype)):f.prototype.hasOwnProperty(u)&&(o(window),o(f.prototype)),a.on(u+"-start",function(t,e){var n=t[1],r=c(n,"nr@wrapped",function(){function t(){if("function"==typeof n.handleEvent)return n.handleEvent.apply(n,arguments)}var e={object:t,"function":n}[typeof n];return e?s(e,"fn-",null,e.name||"anonymous"):n});this.wrapped=t[1]=r}),a.on(d+"-start",function(t){t[1]=this.wrapped||t[1]})},{}],7:[function(t,e,n){function r(t,e,n){var r=t[e];"function"==typeof r&&(t[e]=function(){var t=i(arguments),e={};o.emit(n+"before-start",[t],e);var a;e[m]&&e[m].dt&&(a=e[m].dt);var s=r.apply(this,t);return o.emit(n+"start",[t,a],s),s.then(function(t){return o.emit(n+"end",[null,t],s),t},function(t){throw o.emit(n+"end",[t],s),t})})}var o=t("ee").get("fetch"),i=t(26),a=t(25);e.exports=o;var s=window,c="fetch-",f=c+"body-",u=["arrayBuffer","blob","json","text","formData"],d=s.Request,p=s.Response,l=s.fetch,h="prototype",m="nr@context";d&&p&&l&&(a(u,function(t,e){r(d[h],e,f),r(p[h],e,f)}),r(s,"fetch",c),o.on(c+"end",function(t,e){var n=this;if(e){var r=e.headers.get("content-length");null!==r&&(n.rxSize=r),o.emit(c+"done",[null,e],n)}else o.emit(c+"done",[t],n)}))},{}],8:[function(t,e,n){var r=t("ee").get("history"),o=t("wrap-function")(r);e.exports=r;var i=window.history&&window.history.constructor&&window.history.constructor.prototype,a=window.history;i&&i.pushState&&i.replaceState&&(a=i),o.inPlace(a,["pushState","replaceState"],"-")},{}],9:[function(t,e,n){function r(t){function e(){c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}function n(){c.emit("jsonp-error",[],p),c.emit("jsonp-end",[],p),t.removeEventListener("load",e,!1),t.removeEventListener("error",n,!1)}var r=t&&"string"==typeof t.nodeName&&"script"===t.nodeName.toLowerCase();if(r){var o="function"==typeof t.addEventListener;if(o){var a=i(t.src);if(a){var u=s(a),d="function"==typeof u.parent[u.key];if(d){var p={};f.inPlace(u.parent,[u.key],"cb-",p),t.addEventListener("load",e,!1),t.addEventListener("error",n,!1),c.emit("new-jsonp",[t.src],p)}}}}}function o(){return"addEventListener"in window}function i(t){var e=t.match(u);return e?e[1]:null}function a(t,e){var n=t.match(p),r=n[1],o=n[3];return o?a(o,e[r]):e[r]}function s(t){var e=t.match(d);return e&&e.length>=3?{key:e[2],parent:a(e[1],window)}:{key:t,parent:window}}var c=t("ee").get("jsonp"),f=t("wrap-function")(c);if(e.exports=c,o()){var u=/[?&](?:callback|cb)=([^&#]+)/,d=/(.*)\.([^.]+)/,p=/^(\w+)(\.|$)(.*)$/,l=["appendChild","insertBefore","replaceChild"];Node&&Node.prototype&&Node.prototype.appendChild?f.inPlace(Node.prototype,l,"dom-"):(f.inPlace(HTMLElement.prototype,l,"dom-"),f.inPlace(HTMLHeadElement.prototype,l,"dom-"),f.inPlace(HTMLBodyElement.prototype,l,"dom-")),c.on("dom-start",function(t){r(t[0])})}},{}],10:[function(t,e,n){var r=t("ee").get("mutation"),o=t("wrap-function")(r),i=NREUM.o.MO;e.exports=r,i&&(window.MutationObserver=function(t){return this instanceof i?new i(o(t,"fn-")):i.apply(this,arguments)},MutationObserver.prototype=i.prototype)},{}],11:[function(t,e,n){function r(t){var e=a.context(),n=s(t,"executor-",e),r=new f(n);return a.context(r).getCtx=function(){return e},a.emit("new-promise",[r,e],e),r}function o(t,e){return e}var i=t("wrap-function"),a=t("ee").get("promise"),s=i(a),c=t(25),f=NREUM.o.PR;e.exports=a,f&&(window.Promise=r,["all","race"].forEach(function(t){var e=f[t];f[t]=function(n){function r(t){return function(){a.emit("propagate",[null,!o],i),o=o||!t}}var o=!1;c(n,function(e,n){Promise.resolve(n).then(r("all"===t),r(!1))});var i=e.apply(f,arguments),s=f.resolve(i);return s}}),["resolve","reject"].forEach(function(t){var e=f[t];f[t]=function(t){var n=e.apply(f,arguments);return t!==n&&a.emit("propagate",[t,!0],n),n}}),f.prototype["catch"]=function(t){return this.then(null,t)},f.prototype=Object.create(f.prototype,{constructor:{value:r}}),c(Object.getOwnPropertyNames(f),function(t,e){try{r[e]=f[e]}catch(n){}}),a.on("executor-start",function(t){t[0]=s(t[0],"resolve-",this),t[1]=s(t[1],"resolve-",this)}),a.on("executor-err",function(t,e,n){t[1](n)}),s.inPlace(f.prototype,["then"],"then-",o),a.on("then-start",function(t,e){this.promise=e,t[0]=s(t[0],"cb-",this),t[1]=s(t[1],"cb-",this)}),a.on("then-end",function(t,e,n){this.nextPromise=n;var r=this.promise;a.emit("propagate",[r,!0],n)}),a.on("cb-end",function(t,e,n){a.emit("propagate",[n,!0],this.nextPromise)}),a.on("propagate",function(t,e,n){this.getCtx&&!e||(this.getCtx=function(){if(t instanceof Promise)var e=a.context(t);return e&&e.getCtx?e.getCtx():this})}),r.toString=function(){return""+f})},{}],12:[function(t,e,n){var r=t("ee").get("raf"),o=t("wrap-function")(r),i="equestAnimationFrame";e.exports=r,o.inPlace(window,["r"+i,"mozR"+i,"webkitR"+i,"msR"+i],"raf-"),r.on("raf-start",function(t){t[0]=o(t[0],"fn-")})},{}],13:[function(t,e,n){function r(t,e,n){t[0]=a(t[0],"fn-",null,n)}function o(t,e,n){this.method=n,this.timerDuration=isNaN(t[1])?0:+t[1],t[0]=a(t[0],"fn-",this,n)}var i=t("ee").get("timer"),a=t("wrap-function")(i),s="setTimeout",c="setInterval",f="clearTimeout",u="-start",d="-";e.exports=i,a.inPlace(window,[s,"setImmediate"],s+d),a.inPlace(window,[c],c+d),a.inPlace(window,[f,"clearImmediate"],f+d),i.on(c+u,r),i.on(s+u,o)},{}],14:[function(t,e,n){function r(t,e){d.inPlace(e,["onreadystatechange"],"fn-",s)}function o(){var t=this,e=u.context(t);t.readyState>3&&!e.resolved&&(e.resolved=!0,u.emit("xhr-resolved",[],t)),d.inPlace(t,g,"fn-",s)}function i(t){y.push(t),h&&(b?b.then(a):v?v(a):(E=-E,O.data=E))}function a(){for(var t=0;t<y.length;t++)r([],y[t]);y.length&&(y=[])}function s(t,e){return e}function c(t,e){for(var n in t)e[n]=t[n];return e}t(6);var f=t("ee"),u=f.get("xhr"),d=t("wrap-function")(u),p=NREUM.o,l=p.XHR,h=p.MO,m=p.PR,v=p.SI,w="readystatechange",g=["onload","onerror","onabort","onloadstart","onloadend","onprogress","ontimeout"],y=[];e.exports=u;var x=window.XMLHttpRequest=function(t){var e=new l(t);try{u.emit("new-xhr",[e],e),e.addEventListener(w,o,!1)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}return e};if(c(l,x),x.prototype=l.prototype,d.inPlace(x.prototype,["open","send"],"-xhr-",s),u.on("send-xhr-start",function(t,e){r(t,e),i(e)}),u.on("open-xhr-start",r),h){var b=m&&m.resolve();if(!v&&!m){var E=1,O=document.createTextNode(E);new h(a).observe(O,{characterData:!0})}}else f.on("fn-end",function(t){t[0]&&t[0].type===w||a()})},{}],15:[function(t,e,n){function r(t){if(!i(t))return null;var e=window.NREUM;if(!e.loader_config)return null;var n=(e.loader_config.accountID||"").toString()||null,r=(e.loader_config.agentID||"").toString()||null,s=(e.loader_config.trustKey||"").toString()||null;if(!n||!r)return null;var c=a.generateCatId(),f=a.generateCatId(),u=Date.now(),d=o(c,f,u,n,r,s);return{header:d,guid:c,traceId:f,timestamp:u}}function o(t,e,n,r,o,i){var a="btoa"in window&&"function"==typeof window.btoa;if(!a)return null;var s={v:[0,1],d:{ty:"Browser",ac:r,ap:o,id:t,tr:e,ti:n}};return i&&r!==i&&(s.d.tk=i),btoa(JSON.stringify(s))}function i(t){var e=!1,n=!1,r={};if("init"in NREUM&&"distributed_tracing"in NREUM.init&&(r=NREUM.init.distributed_tracing,n=!!r.enabled),n)if(t.sameOrigin)e=!0;else if(r.allowed_origins instanceof Array)for(var o=0;o<r.allowed_origins.length;o++){var i=s(r.allowed_origins[o]);if(t.hostname===i.hostname&&t.protocol===i.protocol&&t.port===i.port){e=!0;break}}return n&&e}var a=t(23),s=t(17);e.exports={generateTracePayload:r,shouldGenerateTrace:i}},{}],16:[function(t,e,n){function r(t){var e=this.params,n=this.metrics;if(!this.ended){this.ended=!0;for(var r=0;r<p;r++)t.removeEventListener(d[r],this.listener,!1);e.aborted||(n.duration=a.now()-this.startTime,this.loadCaptureCalled||4!==t.readyState?null==e.status&&(e.status=0):i(this,t),n.cbTime=this.cbTime,u.emit("xhr-done",[t],t),s("xhr",[e,n,this.startTime]))}}function o(t,e){var n=c(e),r=t.params;r.host=n.hostname+":"+n.port,r.pathname=n.pathname,t.parsedOrigin=c(e),t.sameOrigin=t.parsedOrigin.sameOrigin}function i(t,e){t.params.status=e.status;var n=v(e,t.lastSize);if(n&&(t.metrics.rxSize=n),t.sameOrigin){var r=e.getResponseHeader("X-NewRelic-App-Data");r&&(t.params.cat=r.split(", ").pop())}t.loadCaptureCalled=!0}var a=t("loader");if(a.xhrWrappable){var s=t("handle"),c=t(17),f=t(15).generateTracePayload,u=t("ee"),d=["load","error","abort","timeout"],p=d.length,l=t("id"),h=t(21),m=t(20),v=t(18),w=window.XMLHttpRequest;a.features.xhr=!0,t(14),t(7),u.on("new-xhr",function(t){var e=this;e.totalCbs=0,e.called=0,e.cbTime=0,e.end=r,e.ended=!1,e.xhrGuids={},e.lastSize=null,e.loadCaptureCalled=!1,t.addEventListener("load",function(n){i(e,t)},!1),h&&(h>34||h<10)||window.opera||t.addEventListener("progress",function(t){e.lastSize=t.loaded},!1)}),u.on("open-xhr-start",function(t){this.params={method:t[0]},o(this,t[1]),this.metrics={}}),u.on("open-xhr-end",function(t,e){"loader_config"in NREUM&&"xpid"in NREUM.loader_config&&this.sameOrigin&&e.setRequestHeader("X-NewRelic-ID",NREUM.loader_config.xpid);var n=f(this.parsedOrigin);n&&n.header&&(e.setRequestHeader("newrelic",n.header),this.dt=n)}),u.on("send-xhr-start",function(t,e){var n=this.metrics,r=t[0],o=this;if(n&&r){var i=m(r);i&&(n.txSize=i)}this.startTime=a.now(),this.listener=function(t){try{"abort"!==t.type||o.loadCaptureCalled||(o.params.aborted=!0),("load"!==t.type||o.called===o.totalCbs&&(o.onloadCalled||"function"!=typeof e.onload))&&o.end(e)}catch(n){try{u.emit("internal-error",[n])}catch(r){}}};for(var s=0;s<p;s++)e.addEventListener(d[s],this.listener,!1)}),u.on("xhr-cb-time",function(t,e,n){this.cbTime+=t,e?this.onloadCalled=!0:this.called+=1,this.called!==this.totalCbs||!this.onloadCalled&&"function"==typeof n.onload||this.end(n)}),u.on("xhr-load-added",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&!this.xhrGuids[n]&&(this.xhrGuids[n]=!0,this.totalCbs+=1)}),u.on("xhr-load-removed",function(t,e){var n=""+l(t)+!!e;this.xhrGuids&&this.xhrGuids[n]&&(delete this.xhrGuids[n],this.totalCbs-=1)}),u.on("addEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-added",[t[1],t[2]],e)}),u.on("removeEventListener-end",function(t,e){e instanceof w&&"load"===t[0]&&u.emit("xhr-load-removed",[t[1],t[2]],e)}),u.on("fn-start",function(t,e,n){e instanceof w&&("onload"===n&&(this.onload=!0),("load"===(t[0]&&t[0].type)||this.onload)&&(this.xhrCbStart=a.now()))}),u.on("fn-end",function(t,e){this.xhrCbStart&&u.emit("xhr-cb-time",[a.now()-this.xhrCbStart,this.onload,e],e)}),u.on("fetch-before-start",function(t){var e,n=t[1]||{};"string"==typeof t[0]?e=t[0]:t[0]&&t[0].url&&(e=t[0].url),e&&(this.parsedOrigin=c(e),this.sameOrigin=this.parsedOrigin.sameOrigin);var r=f(this.parsedOrigin);if(r&&r.header){var o=r.header;if("string"==typeof t[0]){var i={};for(var a in n)i[a]=n[a];i.headers=new Headers(n.headers||{}),i.headers.set("newrelic",o),this.dt=r,t.length>1?t[1]=i:t.push(i)}else t[0]&&t[0].headers&&(t[0].headers.append("newrelic",o),this.dt=r)}})}},{}],17:[function(t,e,n){var r={};e.exports=function(t){if(t in r)return r[t];var e=document.createElement("a"),n=window.location,o={};e.href=t,o.port=e.port;var i=e.href.split("://");!o.port&&i[1]&&(o.port=i[1].split("/")[0].split("@").pop().split(":")[1]),o.port&&"0"!==o.port||(o.port="https"===i[0]?"443":"80"),o.hostname=e.hostname||n.hostname,o.pathname=e.pathname,o.protocol=i[0],"/"!==o.pathname.charAt(0)&&(o.pathname="/"+o.pathname);var a=!e.protocol||":"===e.protocol||e.protocol===n.protocol,s=e.hostname===document.domain&&e.port===n.port;return o.sameOrigin=a&&(!e.hostname||s),"/"===o.pathname&&(r[t]=o),o}},{}],18:[function(t,e,n){function r(t,e){var n=t.responseType;return"json"===n&&null!==e?e:"arraybuffer"===n||"blob"===n||"json"===n?o(t.response):"text"===n||""===n||void 0===n?o(t.responseText):void 0}var o=t(20);e.exports=r},{}],19:[function(t,e,n){function r(){}function o(t,e,n){return function(){return i(t,[f.now()].concat(s(arguments)),e?null:this,n),e?void 0:this}}var i=t("handle"),a=t(25),s=t(26),c=t("ee").get("tracer"),f=t("loader"),u=NREUM;"undefined"==typeof window.newrelic&&(newrelic=u);var d=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],p="api-",l=p+"ixn-";a(d,function(t,e){u[e]=o(p+e,!0,"api")}),u.addPageAction=o(p+"addPageAction",!0),u.setCurrentRouteName=o(p+"routeName",!0),e.exports=newrelic,u.interaction=function(){return(new r).get()};var h=r.prototype={createTracer:function(t,e){var n={},r=this,o="function"==typeof e;return i(l+"tracer",[f.now(),t,n],r),function(){if(c.emit((o?"":"no-")+"fn-start",[f.now(),r,o],n),o)try{return e.apply(this,arguments)}catch(t){throw c.emit("fn-err",[arguments,this,t],n),t}finally{c.emit("fn-end",[f.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){h[e]=o(l+e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),i("err",[t,f.now(),!1,e])}},{}],20:[function(t,e,n){e.exports=function(t){if("string"==typeof t&&t.length)return t.length;if("object"==typeof t){if("undefined"!=typeof ArrayBuffer&&t instanceof ArrayBuffer&&t.byteLength)return t.byteLength;if("undefined"!=typeof Blob&&t instanceof Blob&&t.size)return t.size;if(!("undefined"!=typeof FormData&&t instanceof FormData))try{return JSON.stringify(t).length}catch(e){return}}}},{}],21:[function(t,e,n){var r=0,o=navigator.userAgent.match(/Firefox[\/\s](\d+\.\d+)/);o&&(r=+o[1]),e.exports=r},{}],22:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?c("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&c("timing",["fcp",Math.floor(t.startTime)])})}function o(t,e){var n=t.getEntries();n.length>0&&c("lcp",[n[n.length-1]])}function i(t){if(t instanceof u&&!p){var e,n=Math.round(t.timeStamp);e=n>1e12?Date.now()-n:f.now()-n,p=!0,c("timing",["fi",n,{type:t.type,fid:e}])}}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var a,s,c=t("handle"),f=t("loader"),u=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){a=new PerformanceObserver(r),s=new PerformanceObserver(o);try{a.observe({entryTypes:["paint"]}),s.observe({entryTypes:["largest-contentful-paint"]})}catch(d){}}if("addEventListener"in document){var p=!1,l=["click","keydown","mousedown","pointerdown","touchstart"];l.forEach(function(t){document.addEventListener(t,i,!1)})}}},{}],23:[function(t,e,n){function r(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&(e=r.getRandomValues(new Uint8Array(31)));for(var o,i="xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",a="",s=0;s<i.length;s++)o=i[s],"x"===o?a+=t().toString(16):"y"===o?(o=3&t()|8,a+=o.toString(16)):a+=o;return a}function o(){function t(){return e?15&e[n++]:16*Math.random()|0}var e=null,n=0,r=window.crypto||window.msCrypto;r&&r.getRandomValues&&Uint8Array&&(e=r.getRandomValues(new Uint8Array(31)));for(var o=[],i=0;i<16;i++)o.push(t().toString(16));return o.join("")}e.exports={generateUuid:r,generateCatId:o}},{}],24:[function(t,e,n){function r(t,e){if(!o)return!1;if(t!==o)return!1;if(!e)return!0;if(!i)return!1;for(var n=i.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var o=null,i=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var s=navigator.userAgent,c=s.match(a);c&&s.indexOf("Chrome")===-1&&s.indexOf("Chromium")===-1&&(o="Safari",i=c[1])}e.exports={agent:o,version:i,match:r}},{}],25:[function(t,e,n){function r(t,e){var n=[],r="",i=0;for(r in t)o.call(t,r)&&(n[i]=e(r,t[r]),i+=1);return n}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],26:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,o=n-e||0,i=Array(o<0?0:o);++r<o;)i[r]=t[e+r];return i}e.exports=r},{}],27:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function o(t){function e(t){return t&&t instanceof r?t:t?c(t,s,i):i()}function n(n,r,o,i){if(!p.aborted||i){t&&t(n,r,o);for(var a=e(o),s=m(n),c=s.length,f=0;f<c;f++)s[f].apply(a,r);var d=u[y[n]];return d&&d.push([x,n,r,a]),a}}function l(t,e){g[t]=m(t).concat(e)}function h(t,e){var n=g[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return g[t]||[]}function v(t){return d[t]=d[t]||o(n)}function w(t,e){f(t,function(t,n){e=e||"feature",y[n]=e,e in u||(u[e]=[])})}var g={},y={},x={on:l,addEventListener:l,removeEventListener:h,emit:n,get:v,listeners:m,context:e,buffer:w,abort:a,aborted:!1};return x}function i(){return new r}function a(){(u.api||u.feature)&&(p.aborted=!0,u=p.backlog={})}var s="nr@context",c=t("gos"),f=t(25),u={},d={},p=e.exports=o();p.backlog=u},{}],gos:[function(t,e,n){function r(t,e,n){if(o.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(i){}return t[e]=r,r}var o=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){o.buffer([t],r),o.emit(t,e,n)}var o=t("ee").get("handle");e.exports=r,r.ee=o},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,i,function(){return o++})}var o=1,i="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!E++){var t=b.info=NREUM.info,e=l.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(y,function(e,n){t[e]||(t[e]=n)}),c("mark",["onload",a()+b.offset],null,"api");var n=l.createElement("script");n.src="https://"+t.agent,e.parentNode.insertBefore(n,e)}}function o(){"complete"===l.readyState&&i()}function i(){c("mark",["domContent",a()+b.offset],null,"api")}function a(){return O.exists&&performance.now?Math.round(performance.now()):(s=Math.max((new Date).getTime(),s))-b.offset}var s=(new Date).getTime(),c=t("handle"),f=t(25),u=t("ee"),d=t(24),p=window,l=p.document,h="addEventListener",m="attachEvent",v=p.XMLHttpRequest,w=v&&v.prototype;NREUM.o={ST:setTimeout,SI:p.setImmediate,CT:clearTimeout,XHR:v,REQ:p.Request,EV:p.Event,PR:p.Promise,MO:p.MutationObserver};var g=""+location,y={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-spa-1169.min.js"},x=v&&w&&w[h]&&!/CriOS/.test(navigator.userAgent),b=e.exports={offset:s,now:a,origin:g,features:{},xhrWrappable:x,userAgent:d};t(19),t(22),l[h]?(l[h]("DOMContentLoaded",i,!1),p[h]("load",r,!1)):(l[m]("onreadystatechange",o),p[m]("onload",r)),c("mark",["firstbyte",s],null,"api");var E=0,O=t(27)},{}],"wrap-function":[function(t,e,n){function r(t){return!(t&&t instanceof Function&&t.apply&&!t[a])}var o=t("ee"),i=t(26),a="nr@original",s=Object.prototype.hasOwnProperty,c=!1;e.exports=function(t,e){function n(t,e,n,o){function nrWrapper(){var r,a,s,c;try{a=this,r=i(arguments),s="function"==typeof n?n(r,a):n||{}}catch(f){p([f,"",[r,a,o],s])}u(e+"start",[r,a,o],s);try{return c=t.apply(a,r)}catch(d){throw u(e+"err",[r,a,d],s),d}finally{u(e+"end",[r,a,c],s)}}return r(t)?t:(e||(e=""),nrWrapper[a]=t,d(t,nrWrapper),nrWrapper)}function f(t,e,o,i){o||(o="");var a,s,c,f="-"===o.charAt(0);for(c=0;c<e.length;c++)s=e[c],a=t[s],r(a)||(t[s]=n(a,f?s+o:o,i,s))}function u(n,r,o){if(!c||e){var i=c;c=!0;try{t.emit(n,r,o,e)}catch(a){p([a,n,r,o])}c=i}}function d(t,e){if(Object.defineProperty&&Object.keys)try{var n=Object.keys(t);return n.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(r){p([r])}for(var o in t)s.call(t,o)&&(e[o]=t[o]);return e}function p(e){try{t.emit("internal-error",e)}catch(n){}}return t||(t=o),n.inPlace=f,n.flag=a,n}},{}]},{},["loader",2,16,5,3,4]);</script>
+	<meta name="Publisher" content="finanzen.net GmbH" />
+	<meta name="Copyright" content="finanzen.net GmbH" />
+	<meta name="page-topic" content="Finanzen" />
+	<meta name="page-type" content="Kommerzielle Homepage" />
+	<meta name="audience" content="Alle" />
+			<meta name="Robots" content="INDEX,FOLLOW" />
+
+	<meta name="yandex-verification" content="5ba4cac32034da20" />
+	<meta name="google-site-verification" content="Ei5-WX-n0k9RQuOaopQB5ZN0LAGmZucAsMNHAbsoFHQ" />
+	<meta name="pocket-site-verification" content="db1476accd3a24fb8e9aec1915cd9f" />
+	<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width" />
+
+	<meta http-equiv="Content-Language" content="ru" /><meta name="Language" CONTENT="русский"/>
+	<meta property="og:site_name" content="finanz.ru" />
+	<meta property="fb:admins" content="1524215766" />
+	<meta property="fb:page_id" content="355383501199669" />
+	<meta property="og:type" content="article" />
+	
+	<meta property="og:image" content="https://www.finanz.ru/Images/FacebookIcon.jpg" />
+
+	<link href="/favicon.ico" rel="SHORTCUT ICON" type="image/x-icon" />
+	<link rel="icon" href="/favicon.ico" type="image/x-icon" />
+
+	
+	
+	
+	
+
+
+
+<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/logo_144x144.png" />
+<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/logo_114x114.png" />
+<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/logo_72x72.png" />
+<link rel="apple-touch-icon-precomposed" href="/logo_57x57.png" />
+<link rel="apple-touch-icon" sizes="144x144" href="/logo_144x144.png" />
+<link rel="apple-touch-icon" sizes="114x114" href="/logo_114x114.png" />
+<link rel="apple-touch-icon" sizes="72x72" href="/logo_72x72.png" />
+<link rel="apple-touch-icon" href="/logo_57x57.png" />
+
+	<!-- OpenSearch -->
+	<link title="finanz.ru" rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml">
+	<!-- Script Files -->
+	
+
+<script type="text/javascript">
+	var FinandoJsEnvironment = {  VersionNumber : "7", CurrencySeparator : ",", RegexForDateValidation : /^(0[1-9]|[12][0-9]|3[01])[\..](0[1-9]|1[012])[\./.](19|20)\d\d$/, RegexForEmailValidation : /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,4}$/ };
+	var isDevelopmentMode = 'False' === 'True';
+	var idleNotify = {
+		time: '5',
+		href: '/notify',
+		isEnabled: 'False'
+	};
+</script>
+
+	<script src="https://script.finanz.ru/Content/Scripts/basic.min.js?v=f2d56217" type="text/javascript"></script>
+
+
+
+	<script language="javascript">
+		timestamp = '202006291724570538';
+		currentUserTimeZoneOffset = '3';
+		utcTimeOffsetToApplication = '3';
+		isApplicationTimeByUser = 'False';
+	</script>
+	<!--Vidomomy Script-->
+	<script type="text/javascript" src="https://ads.vidoomy.com/finanzru_11866.js"></script>
+
+	<!-- End of Script files -->
+	<!-- Css files -->
+	<link href="https://styles.finanz.ru/cache/css/styles.min.css?v=f2d56217" rel="stylesheet" title="" type="text/css" />
+	<!-- End of Css Files -->
+	<!--#EMPTYRESPONSE#-->
+
+	<!-- START of HeaderBiddingAds initialization -->
+<script src="https://script.finanz.ru/Content/Scripts/headerbidding/exchangerate.js?v=f2d56217" type="text/javascript"></script>	<!-- END of HeaderBiddingAds initialization -->
+</head>
+<body>
+	<!-- Google Tag Manager -->
+<noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-PJ8B96"
+height="0" width="0"
+style="display:none;visibility:hidden"></iframe></noscript>
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-PJ8B96');</script>
+<!-- End Google Tag Manager --> 
+	<script type="text/javascript" async src="//cdn.viewst.com/showinparent_concat.js"></script>
+
+	<div id="fb-root"></div>
+<script>	(function (d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/ru_RU/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	} (document, 'script', 'facebook-jssdk'));</script>
+
+	<div class="non_sticky_sidebar_left">
+			<div id='off-content_left'>
+				<script type='text/javascript'>
+					googletag.cmd.push(function () { googletag.display('off-content_left'); });
+					$(window).trigger('resize'); // initial
+				</script>
+			</div>
+	</div>
+	<div class="wrapper clear-block" id="site">
+		<div class="headertop clear-block">
+				<div id="off-content_top">
+					<script type="text/javascript">
+						googletag.cmd.push(function () { googletag.display('off-content_top'); });
+					</script>
+				</div>
+
+			<script src="https://yastatic.net/pcode/adfox/loader.js"></script>
+			<div id="adfox_1487312830438921" style="width: 100%"></div>
+			<script>
+				window.Ya.adfoxCode.create({
+					ownerId: 253326,
+					containerId: 'adfox_1487312830438921',
+					params: {
+						pp: 'g',
+						ps: 'cjzv',
+						p2: 'fogo'
+					}
+				});
+			</script>
+			<div class="headertop_leftnav">
+				<ul class="headertop_leftnav colorBlue">
+					
+	<li>
+		<div><a href="/moy-portfel" data-placement="bottom" class="headlogin-space">Войти</a></div>
+	</li>
+	<li class="line">&nbsp;
+	</li>
+	<li>
+		<div>
+			<a href="/moy-portfel/vhod">Зарегистрироваться?</a>
+		</div>
+	</li>
+
+				</ul>
+			</div>
+			<ul class="headertop_rightnav">
+				<li class="last">
+					<a href="https://www.facebook.com/finanz.ru" class="image_icon_facebook" target="_blank">Нравится</a>
+				</li>
+			</ul>
+		</div>
+		<div class="header clear-block">
+			<div class="mainheader">
+				<a href="/">
+					<h2 class="sitelogo" style="zoom: 1">
+						<span>finanz.ru</span>
+					</h2>
+				</a>
+				<div class="headermarketbox">
+					<div class="headeriframe">
+						<table class="header_user_pricebox">
+	<colgroup>
+		<col class="description_size_1" />
+		<col class="absolute_change_small" />
+		<col class="percental_change" />
+
+		<col class="description_size_4" />
+		<col class="absolute_change_small" />
+		<col class="percental_change" />
+
+		<col class="description_size_3" />
+		<col class="absolute_change_small" />
+		<col class="percental_change" />
+
+		<col class="description_size_2" />
+		<col class="absolute_change_large" />
+		<col class="percental_change" />
+	</colgroup>
+		<tr >
+						<th ><a href="/indeksi/micex" title="ММВБ">ММВБ</a></th>
+						<td ><span class="colorGreen"><span class="colorGreen">2 762</span></span></td>
+						<td class="text_right"><span class="colorGreen">0,0%&nbsp;</span></td>
+						<th ><a href="/indeksi/nasdaq_composite" title="Nasdaq">Nasdaq</a></th>
+						<td ><span class="colorGreen"><span class="colorRed">9 757</span></span></td>
+						<td class="text_right"><span class="colorRed">-2,6%&nbsp;</span></td>
+						<th ><a href="/valyuty/btc-usd" title="Биткойн">Биткойн</a></th>
+						<td ><span class="colorGreen"><span class="colorRed">9 112</span></span></td>
+						<td class="text_right"><span class="colorRed">-0,2%&nbsp;</span></td>
+						<th ><a href="/valyuty/usd-rub" title="USD/RUB">USD/RUB</a></th>
+						<td ><span class="colorGreen"><span class="colorGreen">69,8393</span></span></td>
+						<td class="text_right"><span class="colorGreen">0,1%&nbsp;</span></td>
+		</tr>
+		<tr >
+						<th ><a href="/indeksi/rts" title="РТС">РТС</a></th>
+						<td ><span class="colorGreen"><span class="colorRed">1 247</span></span></td>
+						<td class="text_right"><span class="colorRed">-0,8%&nbsp;</span></td>
+						<th ><a href="/indeksi/s&p_500" title="S&P500">S&P500</a></th>
+						<td ><span class="colorGreen"><span class="colorRed">3 009</span></span></td>
+						<td class="text_right"><span class="colorRed">-2,4%&nbsp;</span></td>
+						<th ><a href="/birzhevyye-tovary/neft-cena" title="Нефть">Нефть</a></th>
+						<td ><span class="colorGreen"><span class="colorRed">40,1</span></span></td>
+						<td class="text_right"><span class="colorRed">-1,4%&nbsp;</span></td>
+						<th ><a href="/valyuty/eur-rub" title="EUR/RUB">EUR/RUB</a></th>
+						<td ><span class="colorGreen"><span class="colorGreen">78,5999</span></span></td>
+						<td class="text_right"><span class="colorGreen">0,4%&nbsp;</span></td>
+		</tr>
+		<tr class="last">
+						<th ><a href="/indeksi/dow_jones" title="Dow">Dow</a></th>
+						<td ><span class="colorGreen"><span class="colorRed">25 016</span></span></td>
+						<td class="text_right"><span class="colorRed">-2,8%&nbsp;</span></td>
+						<th ><a href="/indeksi/ftse_100" title="FTSE100">FTSE100</a></th>
+						<td ><span class="colorGreen"><span class="colorGreen">6 159</span></span></td>
+						<td class="text_right"><span class="colorGreen">0,2%&nbsp;</span></td>
+						<th ><a href="/birzhevyye-tovary/zoloto-cena" title="Золото">Золото</a></th>
+						<td ><span class="colorGreen"><span class="colorGreen">1 772</span></span></td>
+						<td class="text_right"><span class="colorGreen">0,0%&nbsp;</span></td>
+						<th ><a href="/valyuty/eur-usd" title="EUR/USD">EUR/USD</a></th>
+						<td ><span class="colorGreen"><span class="colorGreen">1,1255</span></span></td>
+						<td class="text_right"><span class="colorGreen">0,3%&nbsp;</span></td>
+		</tr>
+</table>
+					</div>
+				</div>
+			</div>
+
+			<div class="shadow_right">
+				<ul class="sub_navigation clear-block"><li><a href="https://www.finanz.ru/aktsii"  >Акции</a></li><li><a href="https://www.finanz.ru/indeksy"  >
+							Индексы
+						</a></li><li><a href="https://www.finanz.ru/obligacii"  >Облигации</a></li><li><a href="https://www.finanz.ru/birzhevyye-tovary"  >
+							Биржевые товары
+						</a></li><li class="active"><a href="https://www.finanz.ru/valyuty"  >Валюты</a></li><li><a href="https://www.finanz.ru/novosti/sortirovka/fondy"  >
+							Фонды
+						</a></li><li class="background_green_white last"><a href="https://www.finanz.ru/special/collectivnye-investitsii" target="_blank" >Коллективные инвестиции</a></li></ul><ul class="main_navigation clear-block"><li class="active"><a href="https://www.finanz.ru/"  >Рынки</a></li><li><a href="https://www.finanz.ru/novosti"  >
+					Новости
+				</a></li><li class="last"><a href="https://www.finanz.ru/moy-portfel"  >Мой портфель</a></li></ul><ul class="sub_navigation2 clear-block"><li><a href="https://www.finanz.ru/novosti/sortirovka/valyuty"  >
+									Новости
+								</a></li><li><a href="https://www.finanz.ru/valyuty/v-realnom-vremeni"  >
+									Котировки
+								</a></li><li><a href="https://www.finanz.ru/konverter-valut"  >
+									Конвертер валют
+								</a></li><li><a href="https://www.finanz.ru/kursy-valyut-v-bankakh/Moskva"  >
+									Рынки наличной валюты
+								</a></li><li class="active last"><a href="https://www.finanz.ru/valyuty/dinamika-valjut"  >
+									Динамика валют
+								</a></li></ul>
+				
+
+<div class="search clear-block">
+	<form method="get" action="https://www.finanz.ru/resultaty-poiska" document.mmssearch.q.value="document.mmssearch._search.value;" name="mmssearch">
+		<div class="form-item">
+			<input id="q" name="q" style="display: none" value="test" />
+			<input name="cx" value="008323877780643863910:rflckvtb8ba" style="display: none" />
+			<input name="ie" value="ISO-8859-5" style="display: none" />
+			<input name="cof" value="FORID:10" style="display: none" />
+			<input name="_type" value="fulltext" style="display: none" />
+
+			<input type="text" 
+						 id="searchvalue" 
+						 value="Поиск" 
+						 onclick="if(this.value=='Поиск')this.value=''" 
+						 onblur="if(this.value=='')this.value='Поиск'" 
+						 name="_search" 
+						 class="form-input" 
+						 autocomplete="off" />
+		</div>
+		<input id="submit" type="submit" value="Submit" class="form-submit" />
+	</form>
+</div>
+
+<script type="text/javascript">
+	$('#submit').click(function () {
+		$('#q').val($('#searchvalue').val());
+	});
+</script>
+			</div>
+		</div>
+
+		<div class="top_mainwrapper"></div>
+
+		<div class="mainwrapper clear-block">
+			<div class="breadcrumb">
+				
+						<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+			<a title="Главная" href="/" itemprop="url">
+				<span itemprop="title">Главная</span>
+			</a>
+				<span>»</span>
+		</div>
+		<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+			<a title="Валюты" href="/valyuty" itemprop="url">
+				<span itemprop="title">Валюты</span>
+			</a>
+				<span>»</span>
+		</div>
+		<div itemscope itemtype="http://data-vocabulary.org/Breadcrumb">
+			<a title="
+									Динамика валют
+								" href="/valyuty/dinamika-valjut" itemprop="url">
+				<span itemprop="title">
+									Динамика валют
+								</span>
+			</a>
+		</div>
+
+			</div>
+
+				<div id="top">
+					<script type="text/javascript">
+						googletag.cmd.push(function () { googletag.display('top'); });
+					</script>
+				</div>
+
+
+
+			<br />
+<div class="center_top_bar">
+	
+<a id="balken_top" style="color:white" href="http://g.finanzen.net/admiral_markets_pt" target="_blank" rel="nofollow noopener"><strong>+++ Откройте счет для торговли Forex & CFD на отличных условиях. Начните торговать уже сегодня! +++</strong></a><span style="float:right; color:white">Реклама</span>
+<script>
+$('#balken_top').parent().css({'background-color':'#84BD00', 'background-image':'none', 'text-align':'center', 'max-width':'985px', 'font-size':'12px'});
+</script>
+</div>
+
+
+<div class="main">
+	<div class="content_box content_navi content_small" id="index-list-container">
+		<div class="content">
+			<div class="title seo-headline">
+				<h1 class="majuscule_noRepositioning">Динамика валют</h1>
+			</div>
+			<table class="quote_list performance">
+						<tr>
+
+								<th class="text_center" width="10%">Рубль</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/cny-rub"  title="CNY/RUB">CNY/RUB</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y01010950002456041" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY01010950002456041" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">9,9162</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y01010950002456041" class="" data-field="ChangePer" style="display: inline;" data-room="RY01010950002456041"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="9.8598" data-animation="animationType:color">0,57 %</span></div></td>
+											<td ><span class="colorGreen">10,6055</span></td>
+											<td ><span class="colorGreen">0,2362</span></td>
+											<td ><span class="colorRed">-0,1099</span></td>
+											<td ><span class="colorRed">-11,7812</span></td>
+											<td ><span class="colorGreen">10,6523</span></td>
+											<td ><span class="colorGreen">6,984</span></td>
+											<td ><span class="colorGreen">13,1304</span></td>
+											<td ><span class="colorGreen">11,6897</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-rub"  title="GBP/RUB">GBP/RUB</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000839173" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000839173" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">86,0530</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000839173" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000839173"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="86.1152" data-animation="animationType:color">-0,07 %</span></div></td>
+											<td ><span class="colorGreen">4,591</span></td>
+											<td ><span class="colorGreen">0,1914</span></td>
+											<td ><span class="colorRed">-0,954</span></td>
+											<td ><span class="colorRed">-12,8358</span></td>
+											<td ><span class="colorGreen">5,6568</span></td>
+											<td ><span class="colorGreen">7,17</span></td>
+											<td ><span class="colorGreen">12,3669</span></td>
+											<td ><span class="colorGreen">0,0734</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-rub"  title="USD/RUB">USD/RUB</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000839420" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000839420" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">70,2197</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000839420" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000839420"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="69.7910" data-animation="animationType:color">0,61 %</span></div></td>
+											<td ><span class="colorGreen">12,433</span></td>
+											<td ><span class="colorGreen">0,3215</span></td>
+											<td ><span class="colorRed">-1,0759</span></td>
+											<td ><span class="colorRed">-12,0055</span></td>
+											<td ><span class="colorGreen">11,9609</span></td>
+											<td ><span class="colorGreen">10,2799</span></td>
+											<td ><span class="colorGreen">17,7681</span></td>
+											<td ><span class="colorGreen">27,2839</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/jpy-rub"  title="JPY/RUB">JPY/RUB</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000851534" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000851534" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,6517</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000851534" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000851534"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.6515" data-animation="animationType:color">0,03 %</span></div></td>
+											<td ><span class="colorGreen">14,0117</span></td>
+											<td ><span class="colorRed">-0,0156</span></td>
+											<td ><span class="colorRed">-0,6558</span></td>
+											<td ><span class="colorRed">-11,389</span></td>
+											<td ><span class="colorGreen">14,3478</span></td>
+											<td ><span class="colorGreen">11,0156</span></td>
+											<td ><span class="colorGreen">23,3751</span></td>
+											<td ><span class="colorGreen">45,4862</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/chf-rub"  title="CHF/RUB">CHF/RUB</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000851568" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000851568" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">73,9296</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000851568" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000851568"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="73.6282" data-animation="animationType:color">0,41 %</span></div></td>
+											<td ><span class="colorGreen">14,7417</span></td>
+											<td ><span class="colorGreen">0,7461</span></td>
+											<td ><span class="colorGreen">0,5872</span></td>
+											<td ><span class="colorRed">-11,7037</span></td>
+											<td ><span class="colorGreen">15,172</span></td>
+											<td ><span class="colorGreen">13,6031</span></td>
+											<td ><span class="colorGreen">19,2298</span></td>
+											<td ><span class="colorGreen">26,3727</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-rub"  title="EUR/RUB">EUR/RUB</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000946869" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000946869" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">78,9599</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000946869" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000946869"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="78.2910" data-animation="animationType:color">0,85 %</span></div></td>
+											<td ><span class="colorGreen">12,7029</span></td>
+											<td ><span class="colorGreen">0,7834</span></td>
+											<td ><span class="colorGreen">0,2119</span></td>
+											<td ><span class="colorRed">-10,8752</span></td>
+											<td ><span class="colorGreen">12,8766</span></td>
+											<td ><span class="colorGreen">8,8143</span></td>
+											<td ><span class="colorGreen">16,1161</span></td>
+											<td ><span class="colorGreen">27,8429</span></td>
+									</tr>
+						<tr>
+
+								<th class="text_center" width="10%">Евро</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-chf"  title="EUR/CHF">EUR/CHF</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000897789" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000897789" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,0681</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000897789" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000897789"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.0637" data-animation="animationType:color">0,42 %</span></div></td>
+											<td ><span class="colorRed">-2,0452</span></td>
+											<td ><span class="colorRed">-0,0611</span></td>
+											<td ><span class="colorRed">-0,384</span></td>
+											<td ><span class="colorRed">-0,0752</span></td>
+											<td ><span class="colorRed">-2,3189</span></td>
+											<td ><span class="colorRed">-4,5069</span></td>
+											<td ><span class="colorRed">-2,5872</span></td>
+											<td ><span class="colorGreen">2,0386</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-usd"  title="EUR/USD">EUR/USD</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000946681" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000946681" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,1246</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000946681" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000946681"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.1223" data-animation="animationType:color">0,20 %</span></div></td>
+											<td ><span class="colorGreen">0,0383</span></td>
+											<td ><span class="colorGreen">0,2771</span></td>
+											<td ><span class="colorGreen">1,259</span></td>
+											<td ><span class="colorGreen">0,4611</span></td>
+											<td ><span class="colorGreen">0,4072</span></td>
+											<td ><span class="colorRed">-1,4709</span></td>
+											<td ><span class="colorRed">-1,3886</span></td>
+											<td ><span class="colorGreen">2,2976</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-gbp"  title="EUR/GBP">EUR/GBP</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000946684" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000946684" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,9174</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000946684" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000946684"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.9096" data-animation="animationType:color">0,86 %</span></div></td>
+											<td ><span class="colorGreen">7,4149</span></td>
+											<td ><span class="colorGreen">0,4031</span></td>
+											<td ><span class="colorGreen">1,1285</span></td>
+											<td ><span class="colorGreen">1,643</span></td>
+											<td ><span class="colorGreen">6,4308</span></td>
+											<td ><span class="colorGreen">1,3201</span></td>
+											<td ><span class="colorGreen">3,2828</span></td>
+											<td ><span class="colorGreen">30,0565</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-jpy"  title="EUR/JPY">EUR/JPY</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000946686" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000946686" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">121,1480</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000946686" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000946686"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="120.2600" data-animation="animationType:color">0,74 %</span></div></td>
+											<td ><span class="colorRed">-1,3206</span></td>
+											<td ><span class="colorGreen">0,6989</span></td>
+											<td ><span class="colorGreen">0,9144</span></td>
+											<td ><span class="colorGreen">0,0374</span></td>
+											<td ><span class="colorRed">-1,6795</span></td>
+											<td ><span class="colorRed">-2,0956</span></td>
+											<td ><span class="colorRed">-5,8243</span></td>
+											<td ><span class="colorRed">-10,4711</span></td>
+									</tr>
+						<tr>
+
+								<th class="text_center" width="10%">Доллар США</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-chf"  title="USD/CHF">USD/CHF</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275000" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275000" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,9500</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275000" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275000"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.9479" data-animation="animationType:color">0,22 %</span></div></td>
+											<td ><span class="colorRed">-1,9847</span></td>
+											<td ><span class="colorRed">-0,3945</span></td>
+											<td ><span class="colorRed">-1,6084</span></td>
+											<td ><span class="colorRed">-0,3143</span></td>
+											<td ><span class="colorRed">-2,7612</span></td>
+											<td ><span class="colorRed">-2,8981</span></td>
+											<td ><span class="colorRed">-1,1983</span></td>
+											<td ><span class="colorGreen">0,7437</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-jpy"  title="USD/JPY">USD/JPY</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275023" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275023" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">107,7470</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275023" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275023"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="107.1500" data-animation="animationType:color">0,56 %</span></div></td>
+											<td ><span class="colorRed">-1,382</span></td>
+											<td ><span class="colorGreen">0,3276</span></td>
+											<td ><span class="colorRed">-0,4005</span></td>
+											<td ><span class="colorRed">-0,6926</span></td>
+											<td ><span class="colorRed">-2,0829</span></td>
+											<td ><span class="colorRed">-0,658</span></td>
+											<td ><span class="colorRed">-4,5429</span></td>
+											<td ><span class="colorRed">-12,5056</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-gbp"  title="USD/GBP">USD/GBP</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275321" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275321" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,8159</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275321" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275321"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.8104" data-animation="animationType:color">0,67 %</span></div></td>
+											<td ><span class="colorGreen">7,4978</span></td>
+											<td ><span class="colorGreen">0,1297</span></td>
+											<td ><span class="colorRed">-0,1054</span></td>
+											<td ><span class="colorGreen">0,9524</span></td>
+											<td ><span class="colorGreen">5,9656</span></td>
+											<td ><span class="colorGreen">2,9018</span></td>
+											<td ><span class="colorGreen">4,806</span></td>
+											<td ><span class="colorGreen">27,1881</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-eur"  title="USD/EUR">USD/EUR</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000968984" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000968984" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,8893</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000968984" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000968984"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.8910" data-animation="animationType:color">-0,19 %</span></div></td>
+											<td ><span class="colorGreen">0,0401</span></td>
+											<td ><span class="colorRed">-0,2764</span></td>
+											<td ><span class="colorRed">-1,2433</span></td>
+											<td ><span class="colorRed">-0,459</span></td>
+											<td ><span class="colorRed">-0,4055</span></td>
+											<td ><span class="colorGreen">1,5107</span></td>
+											<td ><span class="colorGreen">1,43</span></td>
+											<td ><span class="colorRed">-2,2521</span></td>
+									</tr>
+						<tr>
+
+								<th class="text_center" width="10%">Японская иена</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/jpy-chf"  title="JPY/CHF">JPY/CHF</a>&nbsp;<span> (100:1)</span></div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275018" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275018" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,8800</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275018" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275018"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.8800" data-animation="animationType:color">-0,30 %</span></div></td>
+											<td ><span class="colorRed">-0,6402</span></td>
+											<td ><span class="colorRed">-0,7628</span></td>
+											<td ><span class="colorRed">-1,2281</span></td>
+											<td ><span class="colorGreen">0,2266</span></td>
+											<td ><span class="colorRed">-0,6178</span></td>
+											<td ><span class="colorRed">-2,4049</span></td>
+											<td ><span class="colorGreen">4,0824</span></td>
+											<td ><span class="colorGreen">14,8961</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/jpy-usd"  title="JPY/USD">JPY/USD</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275032" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275032" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,0093</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275032" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275032"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.0093" data-animation="animationType:color">-0,58 %</span></div></td>
+											<td ><span class="colorGreen">1,4042</span></td>
+											<td ><span class="colorRed">-0,3359</span></td>
+											<td ><span class="colorGreen">0,4068</span></td>
+											<td ><span class="colorGreen">0,7018</span></td>
+											<td ><span class="colorGreen">2,1319</span></td>
+											<td ><span class="colorGreen">0,6671</span></td>
+											<td ><span class="colorGreen">4,8326</span></td>
+											<td ><span class="colorGreen">13,7817</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/jpy-gbp"  title="JPY/GBP">JPY/GBP</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275322" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275322" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,0076</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275322" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275322"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.0076" data-animation="animationType:color">0,09 %</span></div></td>
+											<td ><span class="colorGreen">9,0072</span></td>
+											<td ><span class="colorRed">-0,2066</span></td>
+											<td ><span class="colorGreen">0,3011</span></td>
+											<td ><span class="colorGreen">1,6609</span></td>
+											<td ><span class="colorGreen">8,2247</span></td>
+											<td ><span class="colorGreen">3,5883</span></td>
+											<td ><span class="colorGreen">9,6043</span></td>
+											<td ><span class="colorGreen">45,4365</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/jpy-eur"  title="JPY/EUR">JPY/EUR</a>&nbsp;<span> (100:1)</span></div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000968902" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000968902" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,8300</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000968902" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000968902"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.8300" data-animation="animationType:color">-0,78 %</span></div></td>
+											<td ><span class="colorGreen">1,4449</span></td>
+											<td ><span class="colorRed">-0,6113</span></td>
+											<td ><span class="colorRed">-0,8415</span></td>
+											<td ><span class="colorGreen">0,2396</span></td>
+											<td ><span class="colorGreen">1,7178</span></td>
+											<td ><span class="colorGreen">2,1879</span></td>
+											<td ><span class="colorGreen">6,6103</span></td>
+											<td ><span class="colorGreen">12,373</span></td>
+									</tr>
+						<tr>
+
+								<th class="text_center" width="10%">Фунт стерлингов</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-chf"  title="GBP/CHF">GBP/CHF</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275001" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275001" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,1643</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275001" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275001"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.1695" data-animation="animationType:color">-0,44 %</span></div></td>
+											<td ><span class="colorRed">-8,8159</span></td>
+											<td ><span class="colorRed">-0,4722</span></td>
+											<td ><span class="colorRed">-1,5238</span></td>
+											<td ><span class="colorRed">-1,3494</span></td>
+											<td ><span class="colorRed">-8,2192</span></td>
+											<td ><span class="colorRed">-5,6465</span></td>
+											<td ><span class="colorRed">-5,7226</span></td>
+											<td ><span class="colorRed">-20,8003</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-usd"  title="GBP/USD">GBP/USD</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275017" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275017" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,2256</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275017" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275017"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.2344" data-animation="animationType:color">-0,72 %</span></div></td>
+											<td ><span class="colorRed">-6,9183</span></td>
+											<td ><span class="colorRed">-0,1336</span></td>
+											<td ><span class="colorGreen">0,1136</span></td>
+											<td ><span class="colorRed">-0,9434</span></td>
+											<td ><span class="colorRed">-5,6299</span></td>
+											<td ><span class="colorRed">-2,82</span></td>
+											<td ><span class="colorRed">-4,5567</span></td>
+											<td ><span class="colorRed">-21,3803</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-jpy"  title="GBP/JPY">GBP/JPY</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275195" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275195" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">132,0440</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275195" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275195"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="132.1816" data-animation="animationType:color">-0,10 %</span></div></td>
+											<td ><span class="colorRed">-8,263</span></td>
+											<td ><span class="colorGreen">0,2071</span></td>
+											<td ><span class="colorRed">-0,3001</span></td>
+											<td ><span class="colorRed">-1,6341</span></td>
+											<td ><span class="colorRed">-7,5998</span></td>
+											<td ><span class="colorRed">-3,464</span></td>
+											<td ><span class="colorRed">-8,925</span></td>
+											<td ><span class="colorRed">-31,2132</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-eur"  title="GBP/EUR">GBP/EUR</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000947552" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000947552" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,0901</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000947552" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000947552"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.0997" data-animation="animationType:color">-0,87 %</span></div></td>
+											<td ><span class="colorRed">-6,9222</span></td>
+											<td ><span class="colorRed">-0,538</span></td>
+											<td ><span class="colorRed">-1,1059</span></td>
+											<td ><span class="colorRed">-1,3896</span></td>
+											<td ><span class="colorRed">-5,9874</span></td>
+											<td ><span class="colorRed">-1,3277</span></td>
+											<td ><span class="colorRed">-3,2034</span></td>
+											<td ><span class="colorRed">-21,6595</span></td>
+									</tr>
+						<tr>
+
+								<th class="text_center" width="10%">Швейцарский франк</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-chf"  title="USD/CHF">USD/CHF</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275000" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275000" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,9500</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275000" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275000"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.9479" data-animation="animationType:color">0,22 %</span></div></td>
+											<td ><span class="colorRed">-1,9847</span></td>
+											<td ><span class="colorRed">-0,3945</span></td>
+											<td ><span class="colorRed">-1,6084</span></td>
+											<td ><span class="colorRed">-0,3143</span></td>
+											<td ><span class="colorRed">-2,7612</span></td>
+											<td ><span class="colorRed">-2,8981</span></td>
+											<td ><span class="colorRed">-1,1983</span></td>
+											<td ><span class="colorGreen">0,7437</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-chf"  title="GBP/CHF">GBP/CHF</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275001" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275001" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,1643</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275001" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275001"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.1695" data-animation="animationType:color">-0,44 %</span></div></td>
+											<td ><span class="colorRed">-8,8159</span></td>
+											<td ><span class="colorRed">-0,4722</span></td>
+											<td ><span class="colorRed">-1,5238</span></td>
+											<td ><span class="colorRed">-1,3494</span></td>
+											<td ><span class="colorRed">-8,2192</span></td>
+											<td ><span class="colorRed">-5,6465</span></td>
+											<td ><span class="colorRed">-5,7226</span></td>
+											<td ><span class="colorRed">-20,8003</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/jpy-chf"  title="JPY/CHF">JPY/CHF</a>&nbsp;<span> (100:1)</span></div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000275018" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000275018" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">0,8800</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000275018" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000275018"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="0.8800" data-animation="animationType:color">-0,30 %</span></div></td>
+											<td ><span class="colorRed">-0,6402</span></td>
+											<td ><span class="colorRed">-0,7628</span></td>
+											<td ><span class="colorRed">-1,2281</span></td>
+											<td ><span class="colorGreen">0,2266</span></td>
+											<td ><span class="colorRed">-0,6178</span></td>
+											<td ><span class="colorRed">-2,4049</span></td>
+											<td ><span class="colorGreen">4,0824</span></td>
+											<td ><span class="colorGreen">14,8961</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-chf"  title="EUR/CHF">EUR/CHF</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000897789" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000897789" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">1,0681</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000897789" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000897789"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="1.0637" data-animation="animationType:color">0,42 %</span></div></td>
+											<td ><span class="colorRed">-2,0452</span></td>
+											<td ><span class="colorRed">-0,0611</span></td>
+											<td ><span class="colorRed">-0,384</span></td>
+											<td ><span class="colorRed">-0,0752</span></td>
+											<td ><span class="colorRed">-2,3189</span></td>
+											<td ><span class="colorRed">-4,5069</span></td>
+											<td ><span class="colorRed">-2,5872</span></td>
+											<td ><span class="colorGreen">2,0386</span></td>
+									</tr>
+						<tr>
+
+								<th class="text_center" width="10%">Украинская гривна</th>
+								<th class="text_center text_left" width="8%">Курс</th>
+								<th class="text_center" width="9%">1 день %</th>
+								<th class="text_center" width="8%">YTD %</th>
+								<th class="text_center" width="11%">1 неделя %</th>
+								<th class="text_center" width="10%">1 месяц %</th>
+								<th class="text_center" width="9%">3 мес. %</th>
+								<th class="text_center" width="9%">6 мес. %</th>
+								<th class="text_center" width="8%">1 год %</th>
+								<th class="text_center" width="9%">3 года %</th>
+								<th class="text_center" width="9%">5 лет %</th>
+						</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/chf-uah"  title="CHF/UAH">CHF/UAH</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y01010950001996430" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY01010950001996430" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">28,1377</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y01010950001996430" class="" data-field="ChangePer" style="display: inline;" data-room="RY01010950001996430"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="28.1349" data-animation="animationType:color">0,01 %</span></div></td>
+											<td ><span class="colorGreen">14,9582</span></td>
+											<td ><span class="colorRed">-0,0189</span></td>
+											<td ><span class="colorGreen">0,7969</span></td>
+											<td ><span class="colorRed">-4,4263</span></td>
+											<td ><span class="colorGreen">16,8379</span></td>
+											<td ><span class="colorGreen">4,9437</span></td>
+											<td ><span class="colorGreen">3,5258</span></td>
+											<td ><span class="colorGreen">26,1144</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/usd-uah"  title="USD/UAH">USD/UAH</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000698366" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000698366" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">26,7252</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000698366" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000698366"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="26.6685" data-animation="animationType:color">0,21 %</span></div></td>
+											<td ><span class="colorGreen">12,6451</span></td>
+											<td ><span class="colorRed">-0,4403</span></td>
+											<td ><span class="colorRed">-0,8521</span></td>
+											<td ><span class="colorRed">-4,7533</span></td>
+											<td ><span class="colorGreen">13,5804</span></td>
+											<td ><span class="colorGreen">1,8737</span></td>
+											<td ><span class="colorGreen">2,2565</span></td>
+											<td ><span class="colorGreen">27,0231</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/gbp-uah"  title="GBP/UAH">GBP/UAH</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000698371" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000698371" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">32,7517</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000698371" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000698371"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="32.9063" data-animation="animationType:color">-0,47 %</span></div></td>
+											<td ><span class="colorGreen">4,7884</span></td>
+											<td ><span class="colorRed">-0,5694</span></td>
+											<td ><span class="colorRed">-0,7474</span></td>
+											<td ><span class="colorRed">-5,6519</span></td>
+											<td ><span class="colorGreen">7,1845</span></td>
+											<td ><span class="colorRed">-0,9991</span></td>
+											<td ><span class="colorRed">-2,4329</span></td>
+											<td ><span class="colorRed">-0,1315</span></td>
+									</tr>
+									<tr>
+											<td ><div style='float:left;'><a href="/valyuty/eur-uah"  title="EUR/UAH">EUR/UAH</a>&nbsp;</div></td>
+											<td class="text-right"><div data-field="Bid" data-item="Y0101095000985820" data-template="Bid" data-source="mdsng" data-table="1"  class="" data-room="RY0101095000985820" style="display: inline;"><span class="push-data " data-format="minimumFractionDigits:4;maximumFractionDigits:4" data-animation="">30,0512</span> </div></td>
+											<td class="text-right"><div data-source="mdsng" data-table="1" data-item="Y0101095000985820" class="" data-field="ChangePer" style="display: inline;" data-room="RY0101095000985820"><span style="" class="push-data text-right" data-format="maximumFractionDigits:2;minimumFractionDigits:2" data-jsvalue="29.9301" data-animation="animationType:color">0,40 %</span></div></td>
+											<td ><span class="colorGreen">12,6</span></td>
+											<td ><span class="colorRed">-0,1652</span></td>
+											<td ><span class="colorGreen">0,3962</span></td>
+											<td ><span class="colorRed">-4,3141</span></td>
+											<td ><span class="colorGreen">14,0425</span></td>
+											<td ><span class="colorGreen">0,3983</span></td>
+											<td ><span class="colorGreen">0,8902</span></td>
+											<td ><span class="colorGreen">27,5436</span></td>
+									</tr>
+
+			</table>
+		</div>
+	</div>
+</div><div class="main">
+    <div class="content_box highlightbox dynamic_picture_box">
+        <script type="text/javascript">
+    (function (a, b, c, d, e, f, g, h) {
+         g = b.createElement(c);
+         g.src = d;
+         g.type = "application/javascript";
+         g.async = !0;
+         h = b.getElementsByTagName(c)[0];
+         h.parentNode.insertBefore(g, h);
+         a[f] = [];
+         a[e] = function () {
+             a[f].push(Array.prototype.slice.apply(arguments));
+        }
+    }) (window, document, "script", (document.location.protocol === "https:"
+? "https:" : "http:") + "//cdn01.nativeroll.tv/js/seedr-player.min.js", "SeedrPlayer",
+ "seedrInit");
+</script>
+<script>
+    SeedrPlayer(
+        document.getElementsByClassName('news_text')[0],
+        50,
+        {
+            gid: "570f4da764225dd25c8b456a",
+            article: '.news_text',
+            onError: function (e) 
+{ console.log(e); }
+        }
+    );
+ </script>
+
+
+    </div>
+</div>
+<div class="clear"></div>
+
+<script>
+	$("body").one("mousedown touchstart", function(event) {
+		$('meta[name="viewport"]').replaceWith('<meta name="viewport" content="initial-scale=1, user-scalable=yes, width=device-width" />');
+	});
+</script>
+			<div style="text-align:center;display:inline-block;">
+				<!-- Rectangle left or right or left responsitive
+					left:ad-slot=1808480830
+					right:ad-slot=3285214031
+				-->
+				<ins class="adsbygoogle"
+					style="display:inline-block;width:900px;height:200px"
+					data-ad-client="ca-pub-4438736351765938"
+					data-ad-slot="2937664402"
+					data-override-format="true"
+					data-max-num-ads="3">
+				</ins>	
+			</div>
+		<script>
+			(adsbygoogle = window.adsbygoogle || []).push({});
+		</script>	
+		<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+			
+
+<div class="footer">
+	<script type="text/javascript">
+		function highlight(element) {
+			var stars = $('.benchmark_rating span');
+			var id = 0;
+			for (var i = 0; stars[i] != element; i++) {
+				$(stars[i]).addClass('active');
+				id = i;
+			}
+			for (var i = id + 1; i <= stars.length; i++) {
+				$(stars[i]).removeClass('active');
+			}
+			$(element).addClass('active');
+		};
+
+		function rate(rating) {
+			var popup = window.open('/reyting?route=Markets/ExchangeRate/ExchangeRatePerformance&query=&rating=' + rating, '_blank', "width=500,height=300,scrollbars=no");
+			popup.focus();
+		};
+	</script>
+
+	<div class="benchmark">
+		Ваша оценка сайта?
+		<div class="benchmark_rating">
+			Отрицательная
+			<span onmouseover="highlight(this);" onclick="rate('1');"></span>
+			<span onmouseover="highlight(this);" onclick="rate('2');"></span>
+			<span onmouseover="highlight(this);" onclick="rate('3');"></span>
+			<span onmouseover="highlight(this);" onclick="rate('4');"></span>
+			<span onmouseover="highlight(this);" onclick="rate('5');"></span>
+			Положительная
+		</div>
+	</div>
+
+	<div class="footerNavi">
+		&nbsp;
+		<a href="/indeksi/micex">Индекс ММВБ</a>&nbsp;-
+		<a href="/indeksi/rts">Индекс РТС</a>&nbsp;-
+		<a href="/indeksi/dow_jones">Dow Jones</a>&nbsp;-
+		<a href="/indeksi/nikkei_225">Nikkei 225</a>&nbsp;-
+		<a href="/aktsii">Акции</a>&nbsp;-
+		<a href="/valyuty">Валюты</a>&nbsp;-
+		<a href="/birzhevyye-tovary/zoloto-cena">Золото</a>&nbsp;-
+		<a href="/birzhevyye-tovary/neft-cena">Нефть</a>
+	</div>
+	<br />
+
+	<div class="footerNavi">
+		<a class="image_logo_facebook_footer" href="https://www.facebook.com/finanzru?fref=ts" target="_blank" title="finanz.ru Facebook"></a>
+		<a class="image_logo_vk_footer" rel="author" href="https://vk.com/finanzru" target="_blank" title="finanz.ru VK"></a>
+		<a class="image_logo_twitter_footer" href="https://twitter.com/finanzru" target="_blank" title="finanz.ru Twitter"></a>
+		<a class="image_logo_rss_footer" href="https://www.finanz.ru/rss" title="finanz.ru RSS Feed"></a>
+		<p>
+			<a href="/karta-sayta">Карта сайта</a>&nbsp;-&nbsp;
+
+				<a href="https://www.finanz.ru/kontakti?prevurl=https://www.finanz.ru/valyuty/dinamika-valjut" rel="nofollow">Контакты</a>&nbsp; -&nbsp;
+			<a href="/sviazatsya-s-redaktsiei" rel="nofollow">Условия использования информации</a>&nbsp;-&nbsp;
+			<a href="/reklama" rel="nofollow">Реклама на сайте</a>&nbsp;-&nbsp;
+			<span><!--LiveInternet counter-->
+<script type="text/javascript">
+<!--
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img class='lazy' data-original='//counter.yadro.ru/hit?t44.11;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet' "+
+"border='0' width='15' height='15' style='margin-bottom: -3px;'><\/a>")
+//--></script><!--/LiveInternet-->
+</span>
+		</p>
+	</div>
+	<br />
+
+	<div>
+		Finanzen.net GmbH не несет никакой ответственности за любые ошибки, задержки в передаче данных или действия на основе информации, содержащейся на этом сайте. Информация не подлежит дальнейшему распространению. © 1999-2018 finanzen.net GmbH<a href="/sviazatsya-s-redaktsiei"> finanzen.net GmbH</a>
+	</div>
+	<br />
+
+	<div id="mdsng_starter"></div>
+</div>
+
+
+		</div>
+
+		<div class="non_sticky_sidebar">
+
+
+			<div id="adfox_1487252761893856" style="width: 100%"></div>
+			<script>
+				window.Ya.adfoxCode.create({
+					ownerId: 253326,
+					containerId: 'adfox_1487252761893856',
+					params: {
+						pp: 'g',
+						ps: 'cjzv',
+						p2: 'fogp'
+					}
+				});
+			</script>
+				<div id='off-content'>
+					<script type='text/javascript'>
+						googletag.cmd.push(function () { googletag.display('off-content'); });
+						$(window).trigger('resize'); // initial
+					</script>
+				</div>
+		</div>
+
+		
+		<!-- Asci JS for AxelSpringer -->
+		
+
+		<!-- Include MM Suggest -->
+		<script type="text/javascript">
+	var mmURLBase = "/ajax/SearchController_Suggest/";
+	var mmURLIcons = "https://images.finanzen.net/images/b_mmsuggest/";
+
+	InstrumentPageRoutes = {
+		Fund: "/fondy/",
+		ETF: "/etf/",
+		Share: "/aktsii/",
+		Bond: "/obligacii/",
+		Index: "/indeksi/",
+		Commodity: "/birzhevyye-tovary/",
+		InterestRate: "//",
+		Derivative: "https://www.finanzen.at/zertifikate/",
+		ExchangeRate: "/valyuty/"
+	};
+
+	InstrumentTypeNames = {
+		Fund: "Фонды",
+		ETF: "ETFs",
+		Share: "Акции",
+		Bond: "Облигации",
+		Index: "Индексы",
+		Commodity: "Биржевые товары",
+		InterestRate: "Процентные ставки",
+		Derivative: "Производные финансовые инструменты",
+		ExchangeRate: "Валюты"
+	};
+
+
+	function convertDateTimeToLocalDateTime(date, offset, format) {
+		var d = new Date(date);
+		return new Date((d.getTime() + (d.getTimezoneOffset() * 60000)) + (3600000 * offset)).toString(format);
+	}
+
+	$(document)
+		.ready(function () {
+			mmssetup();
+
+			if (true) {
+				$('span[rel=localdatetime]')
+					.each(function (idx, obj) {
+						$(obj)
+							.prev()
+							.prev()
+							.html(
+								convertDateTimeToLocalDateTime($(obj).text(), currentUserTimeZoneOffset, $(obj).attr('format'))
+							);
+					});
+			}
+		});
+		</script>
+
+		<script type="text/javascript">
+
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', 'UA-44951833-1']);
+	_gaq.push(['_setDomainName', 'finanz.ru']);
+	_gaq.push(['_trackPageview']);
+	_gaq.push(['_gat._anonymizeIp']);
+	(function () {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+
+</script>
+		
+<script src="https://script.finanz.ru/Content/Scripts/MDSnG/libs/socket.io.js?v=f2d56217" type="text/javascript"></script>
+<script src="https://script.finanz.ru/Content/Scripts/MDSnG/Config.js?v=f2d56217" type="text/javascript"></script>
+<script src="https://script.finanz.ru/Content/Scripts/MDSnG/min/clientApiCore.min.js?v=f2d56217" type="text/javascript"></script>
+<script src="https://script.finanz.ru/Content/Scripts/MDSnG/min/clientApiLibs.min.js?v=f2d56217" type="text/javascript"></script>
+
+<script>
+	var mdsngStarter = document.getElementById("mdsng_starter");
+	if (!!mdsngStarter && "clientApi" in window === false) {
+		clientApi = new MDSnG.ClientApi.ClientApi();
+		clientApi.connect();
+		if (window.buildChart) {
+			try {
+				if (!!window.settings !== false) {
+					buildChart(settings.Settings);
+				}
+
+			} catch (e) { }
+		}
+	}
+	// start the clientApi on load event if it is not already started
+	window.addEventListener('load', function () {
+		if ("clientApi" in window === false) {
+			clientApi = new MDSnG.ClientApi.ClientApi();
+			clientApi.connect();
+			if (window.buildChart) {
+				try {
+					if (!!window.settings !== false) {
+						buildChart(settings.Settings);
+					}
+
+				} catch (e) { }
+			}
+		}
+		
+	}, false);
+</script>
+
+		
+
+		<!-- tns-counter.ru -->
+		<script type="text/javascript">
+			(function (win, doc, cb) {
+				(win[cb] = win[cb] || []).push(function () {
+					try {
+						tnsCounterForbes_ru = new TNS.TnsCounter({
+							'account': 'forbes_ru',
+							'tmsec': 'finanz_total'
+						});
+					} catch (e) {
+					}
+				});
+
+				var tnsscript = doc.createElement('script');
+				tnsscript.type = 'text/javascript';
+				tnsscript.async = true;
+				tnsscript.src = ('https:' == doc.location.protocol ? 'https:' : 'http:') +
+					'//www.tns-counter.ru/tcounter.js';
+				var s = doc.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(tnsscript, s);
+			})(window, this.document, 'tnscounter_callback');
+
+			//Lazy Img Load
+			document.addEventListener("DOMContentLoaded", function () {
+				var lazyImages = [].slice.call(document.querySelectorAll("img.lazy"));
+				if ("IntersectionObserver" in window) {
+					let lazyImageObserver = new IntersectionObserver(function (entries, observer) {
+						entries.forEach(function (entry) {
+							if (entry.isIntersecting) {
+								let lazyImage = entry.target;
+								lazyImage.src = lazyImage.dataset.original;
+								lazyImage.classList.remove("lazy");
+								lazyImageObserver.unobserve(lazyImage);
+								if (typeof (lazyImage.dataset.srcset) != "undefined" && lazyImage.dataset.srcset != null)
+									lazyImage.srcset = lazyImage.dataset.srcset;
+							}
+						});
+					});
+					lazyImages.forEach(function (lazyImage) {
+						lazyImageObserver.observe(lazyImage);
+					});
+				} else {
+					// Possibly fall back to a more compatible method here
+				}
+			});
+		</script>
+		<noscript>
+			<img src="//www.tns-counter.ru/V13a****forbes_ru/ru/UTF-8/tmsec=finanz_total/" width="0" height="0" alt="" />
+		</noscript>
+		<!--/ tns-counter.ru -->
+
+		
+
+
+	<script type="text/javascript">
+		var currentRoute = 'Markets/ExchangeRate/ExchangeRatePerformance';
+		var webPushSettings = {
+			firebaseTopic: "news-push-web",
+			isTestRun: false,
+			//welcomePush: {
+			//	Title: "Welcome Title",
+			//	Body: "Welcome body",
+			//	Url: ""
+			//}
+		}
+
+	</script>
+<script async="async" src="https://script.finanz.ru/Content/Scripts/web-push/init.min.js?v=f2d56217" type="text/javascript"></script>
+		<!--id:B3-BO-RU0-->
+	</div>
+</body>
+</html>
+
